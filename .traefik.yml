@@ -1,0 +1,13 @@
+displayName: Helloworld
+type: middleware
+
+import: github.com/leoli-lyp/traefik-helloworld-plugin
+
+summary: Hello world example
+
+iconPath: images/icon.png
+bannerPath: images/icon.png
+
+testData:
+  URL: http://localhost/v1/data/example
+  AllowField: allow
